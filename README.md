@@ -8,6 +8,11 @@ callbacks and streaming.
 - It is not production ready
 - It probably works fine for simple cases
 
+Travis CI Build Status
+======================
+
+[![Build Status](https://secure.travis-ci.org/kjvalencik/redis-simple-rpc.png?branch=master)](http://travis-ci.org/kjvalencik/redis-simple-rpc)
+
 Usage
 =====
 
