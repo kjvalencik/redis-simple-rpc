@@ -10,7 +10,6 @@
   "license": "MIT",
   "dependencies": {
     "redis": "~0.8.4",
-    "hiredis": "~0.1.15",
     "msgpack": "~0.2.0",
     "node-proxy": "~0.6.0",
     "underscore": "~1.5.1",
