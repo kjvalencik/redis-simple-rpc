@@ -53,6 +53,24 @@ Example:
 		assert.equal(1 + 2, answer);
 	});
 
+Redis Errors
+============
+
+The node redis driver will throw an exception if a client does not have any listeners on `error`. Each client or worker has two redis clients.
+
+	var Client = require('redis-simple-rpc').Client,
+			calc = new Client('calc'),
+			logError;
+
+	logError = function () {
+		return console.error.apply(console, arguments);
+	};
+
+	calc.clients.sender.on('error', logError);
+	calc.clients.receiver.on('error', logError);
+
+
+
 TODO
 ====
 

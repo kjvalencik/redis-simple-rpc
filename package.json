@@ -1,6 +1,6 @@
 {
   "name": "redis-simple-rpc",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Simple RPC with Redis lists",
   "main": "index.js",
   "scripts": {
@@ -8,11 +8,15 @@
   },
   "author": "K.J. Valencik",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/kjvalencik/redis-simple-rpc.git"
+  },
   "dependencies": {
-    "redis": "~0.8.4",
-    "msgpack": "~0.2.0",
-    "node-proxy": "~0.6.0",
-    "underscore": "~1.5.1",
-    "async": "~0.2.9"
+    "async": "~0.2.10",
+    "underscore": "~1.5.2",
+    "redis": "~0.10.0",
+    "msgpack": "~0.2.1",
+    "node-proxy": "~0.7.0"
   }
 }
